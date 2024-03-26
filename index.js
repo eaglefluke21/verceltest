@@ -1,7 +1,7 @@
 import express from 'express';
 
 const app = express();
-const PORT = 3300;
+const PORT = process.env.PORT;
 
 console.log('server is running');
 
